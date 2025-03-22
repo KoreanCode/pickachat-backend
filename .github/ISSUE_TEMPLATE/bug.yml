@@ -1,0 +1,20 @@
+name: "⛔ [ Bug ]"
+description: "Bug(오류) 작업 사항에 대해 기록합니다."
+title: "🐛 [Bug] "
+labels: [ "bug" ]
+body:
+  - type: textarea
+    attributes:
+      label: 🐞 버그 설명
+      description: 어떤 문제가 있었는지 구체적으로 작성해주세요.
+      placeholder: 예: 로그인 시 500 에러 발생
+
+  - type: textarea
+    attributes:
+      label: 🔁 재현 방법
+      description: 버그를 재현할 수 있는 방법을 단계별로 작성해주세요.
+
+  - type: textarea
+    attributes:
+      label: 📎 참고 사항
+      description: 스크린샷이나 관련 링크 등 추가 자료가 있다면 작성해주세요.

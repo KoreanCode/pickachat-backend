@@ -1,0 +1,26 @@
+name: "✅ [ Feature ]"
+description: "Feature(기능) 작업 사항에 대해 기록합니다."
+title: "✨ [Feature] "
+labels: [ "feature", "backend" ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🧩 기능 설명  
+        어떤 기능을 개발할지 간단히 설명해주세요.
+
+  - type: textarea
+    attributes:
+      label: 🔧 작업 항목
+      description: 필요한 세부 작업들을 체크리스트 형식으로 작성해주세요.
+      placeholder: |
+        - [ ] DTO 생성
+        - [ ] VO 생성
+        - [ ] Entity 생성
+        - [ ] Service / Controller 구현
+        - [ ] 테스트 코드 작성
+
+  - type: textarea
+    attributes:
+      label: 📎 참고 사항
+      description: 관련 문서, 링크, 기타 내용이 있다면 작성해주세요.

@@ -1,0 +1,64 @@
+### Build & Gradle ###
+HELP.md
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Log files ###
+logs/
+*.log
+
+### Operating system files ###
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+### Application configuration ###
+*.env
+.env.*
+application.yml
+application.properties
+
+### Local database files ###
+*.h2.db
+*.mv.db
+
+### Spring Tool Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+.vscode/*.code-workspace
+.vscode/*.history/
+
+### Others ###
+*.tmp
+*.bak
+*.swp
